@@ -1,0 +1,18 @@
+// Element Plus主题变量覆盖
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    'primary': (
+      'base': #409eff,
+    ),
+  )
+);
+
+// 自定义变量
+:root {
+  --sidebar-width: 200px;
+  --header-height: 50px;
+}
+
+body {
+  @apply m-0 p-0 h-screen;
+}
